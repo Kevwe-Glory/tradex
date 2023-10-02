@@ -1,6 +1,7 @@
 import React from 'react';
 import { Hero } from '../asset/images/Images';
 import { Ai, Circle, Code, Earth, Treva, Velocity, Logo } from '../asset/icons/Icons';
+import { Link } from 'react-router-dom';
 
 
 const AppButton = () => {
@@ -28,25 +29,26 @@ const Navbar = () => {
               <li className="relative group">
                 <span className="cursor-pointer">Investment Solutions</span>
                 <ul className="hidden absolute left-0 mt-2 space-y-2 bg-gray-800 text-white group-hover:block">
-                  <li><a href="#">Option 1</a></li>
-                  <li><a href="#">Option 2</a></li>
-                  <li><a href="#">Option 3</a></li>
+                <li><Link to="/404">Earn Weekly Income</Link></li>
+                <li><Link to="/404">Copy Trading</Link></li>
+                <li><Link to="/404">Crypto-backed loan</Link></li>
+                <li><Link to="/404">Login</Link></li>
                 </ul>
               </li>
               <li className="relative group">
                 <span className="cursor-pointer">Account Option</span>
                 <ul className="hidden absolute left-0 mt-2 space-y-2 bg-gray-800 text-white group-hover:block">
-                  <li><a href="#">Option 1</a></li>
+                  {/* <li><a href="#">Option 1</a></li>
                   <li><a href="#">Option 2</a></li>
-                  <li><a href="#">Option 3</a></li>
+                  <li><a href="#">Option 3</a></li> */}
                 </ul>
               </li>
               <li className="relative group">
                 <span className="cursor-pointer">Company Information</span>
                 <ul className="hidden absolute left-0 mt-2 space-y-2 bg-gray-800 text-white group-hover:block">
-                  <li><a href="#">Option 1</a></li>
+                  {/* <li><a href="#">Option 1</a></li>
                   <li><a href="#">Option 2</a></li>
-                  <li><a href="#">Option 3</a></li>
+                  <li><a href="#">Option 3</a></li> */}
                 </ul>
               </li>
             </ul>
