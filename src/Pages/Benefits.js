@@ -41,23 +41,37 @@ const Benfits = () => {
         </div>
       </div>
 
+      <div className="flex flex-col md:flex-row">
+  {/* Parent div with a right border */}
+  <div className="border-r border-[#212121] p-4 md:flex-grow">
+    <div className="p-4">
+      <h3 className="text-[#B6F848] font-semibold text-center md:text-left">ABOUT ALFATEKSTRADE</h3>
+      <h3 className="text-center md:text-left text-white">We have built a stable, reliable platform</h3>
+      <p className="text-[#959595] md:text-left">Earning the trust of our clients has always been our highest priority. We earn that trust through the best security in the business — most of our crypto is held safely in cold wallets so bad actors can't reach it.</p>
+      <p className="text-[#959595] md:text-left pt-5">Our platform provides world-class financial stability by maintaining full reserves, healthy banking relationships, and the highest standards of legal compliance.</p>
+    </div>
+  </div>
+  <div className="flex-grow p-4 text-white">
+    graph
+  </div>
+</div>
 
 
-      <div className="flex">
-        {/* Parent div with a right border */}
+
+      {/* <div className="flex">
+
         <div className="border-r border-[#212121] p-4">
-          <div className="flex-grow p-4 text-white">
-            graph
-          </div>
           <div className="flex-grow p-4">
-            {/* Content for child div 2 */}
             <h3 className='text-[#B6F848] font-semibold'>ABOUT ALFATEKSTRADE</h3>
             <h3>We have built a stable, reliable platform</h3>
             <p className='text-[#959595]'>Earning the trust of our clients has always been our highest priority. We earn that trust through the best security in the business — most of our crypto is held safely in cold wallets so bad actors can't reach it.</p>
-            <p className='text-[#959595]'>Our platform provides world class financial stability by maintaining full reserves, healthy banking relationships and the highest standards of legal compliance.</p>
+            <p className='text-[#959595] pt-5'>Our platform provides world class financial stability by maintaining full reserves, healthy banking relationships and the highest standards of legal compliance.</p>
+          </div>
+          <div className="flex-grow p-4 text-white">
+            graph
           </div>
         </div>
-      </div>
+      </div> */}
 
 
     </div>

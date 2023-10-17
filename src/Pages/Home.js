@@ -8,7 +8,6 @@ import Questions from './Questions';
 import Footer from './Footer';
 
 
-
 const Home = () => {
   return (
     <main className='bg-black'>
